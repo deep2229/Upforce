@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 20px;
 }
 
 .App-logo {
@@ -34,5 +35,45 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.btn{
+  border-radius: 50px!important;
+  background-color: #000303!important;
+  color: white!important;
+}
+.btn_Active{
+  background-color: #13db7b!important;
+  color: black;
+  border-radius: 50px!important;
+}
+.btn_group{
+  /* background-color: black; */
+  background-color: #0d0f0f!important;
+  border-radius: 50px!important;
+}
+.MuiToggleButton-root{
+  background-color: #13db7b;
+}
+.App {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.card{
+  background-color: #242424;
+  width: 40%;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  flex-direction: column!important;
+}
+@media only screen and (max-width: 800px ) {
+  .card{
+    width: 100%!important;
   }
 }
